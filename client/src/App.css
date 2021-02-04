@@ -1,0 +1,100 @@
+.container{
+  margin-top: 35px !important;
+}
+
+.btn-success {
+  color: white !important;
+  background-color: #25D55F;
+  border: none !important;
+}
+
+.btn-success:hover {
+  background-color: #1cbb51 !important;
+}
+
+.btn-outline-success {
+  color: #25D55F !important;
+  border-color: #25D55F !important;
+}
+
+.btn-outline-success:hover {
+  background-color:#25D55F !important; 
+  color: white !important;
+}
+
+.text-footer {
+  color: #25D55F !important;
+}
+
+.activeNavItem {
+  color: #26e967 !important;
+}
+
+.braand {
+  color: #999999 !important;
+}
+
+.bg-img {
+ 
+
+}
+.bg-img:before {
+    content: '';
+        position: absolute;
+        top: 75px;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        opacity: .3; 
+        background: url('./assets/background.jpg') center center no-repeat !important;
+        width: 100% !important;
+        height: 100% !important;
+        background-size: cover !important;
+        z-index: -1;
+  }
+
+  .bg-imgTwo {
+ 
+
+  }
+  .bg-imgTwo:before {
+      content: '';
+          position: absolute;
+          top: 75px;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          opacity: .5; 
+          background: url('./assets/background2.png') center center no-repeat !important;
+          width: 100% !important;
+          height: 100% !important;
+          background-size: cover !important;
+          z-index: -1;
+    }
+
+    .footerShadow {
+      -webkit-box-shadow: 0 8px 6px -6px #999;
+      -moz-box-shadow: 0 8px 6px -6px #999;
+      box-shadow: 0 8px 6px -6px #999;
+  
+      /* the rest of your styling */
+  }
+
+  .frontpage {
+    height: 100%;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+  .sticky-bottom {
+    border-top: solid rgba(255,255,255,0.11);
+    box-shadow: 0px 6px 0px 0px rgba(255,255,255,0.11) inset;
+-webkit-box-shadow: 0px 6px 0px 0px rgba(255,255,255,0.11) inset;
+-moz-box-shadow: 0px 6px 0px 0px rgba(255,255,255,0.11) inset;
+  }
+
+  .base {
+    width: 100vw;
+    height: 100vh;
+  }
